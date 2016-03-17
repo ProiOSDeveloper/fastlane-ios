@@ -118,6 +118,7 @@ lane :testflight_local do
   ensure_git_status_clean    
   verify_branch
   provisioning
+  punchh_gym
   punchh_tag
   pilot  
 end
@@ -143,5 +144,5 @@ after_all do |lane|
 end
 
 error do |lane, exception|
-  
+end
 end
