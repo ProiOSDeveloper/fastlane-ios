@@ -13,7 +13,10 @@ fastlane iOS
 ```
 $cd <project path>
 ```
-- Type fastlane <lane to be executed>
+- Run 
+```
+$fastlane <lane_to_be_executed>
+```
 
 
 Supported Lanes
