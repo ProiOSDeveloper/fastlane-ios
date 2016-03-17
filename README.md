@@ -8,7 +8,7 @@ fastlane iOS
 ###Steps to execute a lane:
 
 - Checkout this repo in your project folder.
-- `Fastline` file should reside in `fastlane` folder inside the project root and `fastspec` file should reside directly inside the project root.
+- `fastfile` should reside in `fastlane` folder inside the project root and `fastspec` file should reside directly inside the project root.
 - Open terminal and set your working directory to your project folder.
 ```
 $cd <project path>
