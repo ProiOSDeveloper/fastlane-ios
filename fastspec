@@ -3,7 +3,9 @@
 	"output_name" : "<.ipa name>",
 	"slack_channel_url" : "<slack channel webhook url>",
 	"api_token" : "<github api token of the user>",
-	"git_url" : "<url of github repository storing certificates & provisionings>",
+	"git_url" : "git@github.com:punchh/ios-provisioning.git",
 	"hockey_api_token" : "<API token for hockey app>",
-	"repository_name" : "<github repository name. Example: punchh/framework-ios>"
+	"repository_name" : "<github repository name. Example: punchh/framework-ios>",
+	"archive_path" : "../../Archives",
+	"provisioning_path": "../../provisioning"
 }
