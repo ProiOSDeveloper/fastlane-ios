@@ -64,19 +64,22 @@ end
 lane :match_developer do
   match(git_url: readSpec('git_url'),
       type: "development",
-      app_identifier: readSpec('app_identifier'))
+      app_identifier: readSpec('app_identifier'),
+      readonly: true)
 end
 
 lane :match_adHoc do
   match(git_url: readSpec('git_url'),
       type: "adhoc",
-      app_identifier: readSpec('app_identifier'))
+      app_identifier: readSpec('app_identifier'),
+      readonly: true)
 end
 
 lane :match_appstore do
   match(git_url: readSpec('git_url'),
       type: "appstore",
-      app_identifier: readSpec('app_identifier'))
+      app_identifier: readSpec('app_identifier'),
+      readonly: true)
 end
 
 lane :provisioning do
