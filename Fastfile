@@ -112,7 +112,7 @@ lane :verify_branch do
 end
 
 lane :punchh_release do
-  ipaPath = archive_path + readSpec('output_name') + ".ipa"
+  ipaPath = archive_path + "/" + readSpec('output_name') + ".ipa"
   say ipaPath
   github_release = set_github_release(
     repository_name: readSpec('repository_name'),
@@ -126,7 +126,7 @@ lane :punchh_release do
 end
 
 lane :punchh_hockey do
-  ipaPath = archive_path + readSpec('output_name') + ".ipa"
+  ipaPath = archive_path + "/" + readSpec('output_name') + ".ipa"
   hockey(
     api_token: readSpec('hockey_api_token'),
     ipa: ipaPath,
